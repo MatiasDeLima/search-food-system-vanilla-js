@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Search Food System</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-store-fill"></i> Malu
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#hero" class="nav__link">
+                            <i class="ri-home-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-award-line"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-mail-line"></i>
+                            <span>Contact us</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-inbox-2-line"></i>
+                            <span>News</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__buttons">
+                <i class="ri-shopping-bag-line cart__button" id="cart-button"></i>
+
+                <a href="#" class="header-button">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero" id="hero">
+            <div class="hero__container container grid">
+                <div class="hero__image">
+                    <img src="./images/hero-image-1.png" alt="hero image">
+                </div>
+
+                <div class="hero__data">
+                    <h1 class="hero__title">
+                        Savor the Flavors <br>of Our <span>Exquisite</span> Cuisine.
+                    </h1>
+
+                    <p class="hero__description">
+                        Indulge in a gastronomic journey like no other! Explore a
+                        symphony of tastes and textures with our delectable array of
+                        culinary delights. From mouthwatering entrées to heavenly desserts,
+                        our page is a celebration of all things food.
+                    </p>
+
+                    <button class="button">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products section" id="products">
+            <div class="products__container container grid">
+                <div class="product__data">
+                    <h2 class="product__data-title">
+                        Search Your Product
+                    </h2>
+
+                    <p class="product__data-description">
+                        Join us in discovering the artistry and <br>passion behind every dish.
+                    </p>
+
+                    <div class="product__form">
+                        <input type="search" class="product__data-input" placeholder="Enter an ingredient..." id="search-input">
+                        <button type="button" class="product__form-button" id="search-button">
+                            <i class="ri-search-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product__result" id="product-result">
+                    
+                </div>
+
+                <div class="product__modal">
+                   <!-- <div class="product__modal-close" id="modal-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                    <div class="product__modal-content">
+                        <h2 class="modal__content-title">
+                            Comida de Rua
+                        </h2>
+
+                        <p class="modal__content-category">
+                            Fast Food
+                        </p>
+
+                        <p class="modal__content-description">
+                            Join us in discovering the artistry and passion behind 
+                            every dish, as we invite you to experience a world of 
+                            irresistible flavors and unforgettable dining moments.
+                        </p>
+                    </div>
+
+                    <div class="modal__content-img">
+                        <img src="./images/product-1.jpg" alt="">
+                    </div>
+
+                    <button class="modal__button">
+                        Add to bag <i class="ri-shopping-bag-line"></i>
+                    </button>-->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
